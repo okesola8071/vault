@@ -7,5 +7,5 @@ app = application
 with application.app_context():
     db.create_all()
 
-if _name_ == '_main_':
+if __name__ == '__main__':
     application.run(debug=False)
